@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Katibeh&display=swap");
+
+.Topbar {
+  font-family: "Katibeh";
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.navbar {
+  padding: 1rem 0 !important;
+}
+
+.navbar-nav {
+  gap: 1rem;
+}
+
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
+
+.logo-img {
+  width: 30%;
+}
+
+.navbar-brand {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 0 !important;
+}
+
+.dropdown-toggle::after {
+    vertical-align: 0 !important;
+    margin-right: 0.5rem;
+}
+
+.topbar-login-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.login-btn,
+.register-btn {
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 45px;
+}
+
+.login-btn {
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+.register-btn {
+    background-color: #131b31;
+}
+
+.topbar-login-link,
+.topbar-register-link {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  line-height: 40px;
+}
+
+.topbar-register-link{
+    color: white;
+}
+
+.topbar-login-link {
+    color: #da0b4e;
+    
+}
