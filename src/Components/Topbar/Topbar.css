@@ -19,18 +19,18 @@
 }
 
 .logo-img {
-  width: 30%;
+  width: 33%;
 }
 
 .navbar-brand {
   display: flex;
   justify-content: flex-start;
-  margin-right: 0 !important;
 }
 
 .dropdown-toggle::after {
     vertical-align: 0 !important;
     margin-right: 0.5rem;
+    margin-left: 0 !important;
 }
 
 .topbar-login-section {

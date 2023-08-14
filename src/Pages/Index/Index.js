@@ -1,12 +1,12 @@
 import React from 'react'
 
 import './Index.css'
-import Topbar from '../../Components/Topbar/Topbar'
+import Header from '../../Components/Header/Header'
 
 export default function Index() {
   return (
     <div>
-      <Topbar />
+      <Header />
     </div>
   )
 }
