@@ -3,10 +3,24 @@ import React from "react";
 import "./Header.css";
 import Topbar from "../Topbar/Topbar";
 import SearchIcon from "@mui/icons-material/Search";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export default function Header() {
+  var settings = {
+    dots: false,
+    infinite: true,
+    speed: 5000,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+  };
+
   return (
-    <div>
+    <div className="header">
       <Topbar />
       <div className="landing">
         <div className="container">
@@ -25,7 +39,7 @@ export default function Header() {
                 </p>
                 <div className="landing-search">
                   <div className="landing-form-group">
-                    <SearchIcon className="landing-form-search-icon"/>
+                    <SearchIcon className="landing-form-search-icon" />
                     <input
                       type="text"
                       className="col-lg-10 col-md-10 col-sm-12 landing-form-input"
@@ -37,6 +51,73 @@ export default function Header() {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="brands">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-10 col-md-12 col-sm-12 slider-brand">
+              <Slider {...settings}>
+                <div>
+                  <img
+                    src="./assests/images/brands/lg-1.png"
+                    alt=""
+                    className="brands-img img-fluid"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="./assests/images/brands/lg-2.png"
+                    alt=""
+                    className="brands-img img-fluid"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="./assests/images/brands/lg-3.png"
+                    alt=""
+                    className="brands-img img-fluid"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="./assests/images/brands/lg-4.png"
+                    alt=""
+                    className="brands-img img-fluid"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="./assests/images/brands/lg-5.png"
+                    alt=""
+                    className="brands-img img-fluid"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="./assests/images/brands/lg-6.png"
+                    alt=""
+                    className="brands-img img-fluid"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="./assests/images/brands/lg-7.png"
+                    alt=""
+                    className="brands-img img-fluid"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="./assests/images/brands/lg-8.png"
+                    alt=""
+                    className="brands-img img-fluid"
+                  />
+                </div>
+              </Slider>
             </div>
           </div>
         </div>
