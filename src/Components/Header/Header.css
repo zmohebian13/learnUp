@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Mirza&display=swap");
+
+.landing {
+  height: 100vh;
+  background-image: url("../../../public/assests/images/photo-delighted-cheerful-afro-american-woman-with-crisp-hair-points-away-shows-blank-space-happy-advertise-item-sale-wears-orange-jumper-demonstrates-where-clothes-shop-situated.jpg");
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.landing-title {
+  font-family: "Mirza";
+  font-size: 4rem;
+}
+
+.landing-title-time {
+  font-family: "Mirza";
+  font-size: 3rem;
+  color: #da0b4e;
+}
+
+.landing-subtitle {
+  font-size: 1.1rem;
+  text-align: justify;
+  width: 84%;
+  font-family: "Mirza";
+}
+
+.landing-form-group {
+  width: 84%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.landing-form-input {
+  border: none;
+  height: 70px;
+  border-radius: 5px;
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  font-family: "Mirza";
+  font-size: 1.2rem;
+}
+
+.landing-form-btn {
+  position: absolute;
+  left: 0;
+  font-family: "Mirza";
+  font-size: 1.2rem;
+}
+
+.landing-form-btn button {
+  padding: 1.5rem 2rem;
+  border: none;
+  outline: none !important;
+  background-color: #131b31;
+  color: white;
+}
+
+.landing-form-search-icon {
+    font-size: 2.5rem !important;
+    margin-right: 1rem;
+    margin-left: 0.3rem;
+    color: rgb(184, 187, 190);
+    margin-top: 5px;
+}
