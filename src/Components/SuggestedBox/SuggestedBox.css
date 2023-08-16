@@ -1,0 +1,51 @@
+.suggested-box-content {
+  padding: 1.5rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 6px;
+  width: 100%;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+
+.suggested-box-content:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.suggested-box-img {
+  width: 40px;
+}
+
+.suggested-box-right-img {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.suggested-box-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.suggested-box-left-title {
+  font-family: "Mirza";
+  margin-bottom: 0 !important;
+  font-size: 1.2rem;
+  
+}
+
+.suggested-box-left-subtitle {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-bottom: 0 !important;
+  font-family: "Mirza";
+}

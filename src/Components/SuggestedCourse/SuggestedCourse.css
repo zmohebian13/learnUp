@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Mirza&display=swap");
+
+.suggested-course {
+    margin:8rem auto;
+}
+
+.suggested-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    gap: -0.2rem;
+}
+
+.suggested-title p{
+    font-family: 'Mirza';
+    font-size: 1.2rem;
+}
+
+.suggusted-course-icon {
+    font-size: 2.5rem !important;
+    margin-left: 0.5rem;
+
+}
+
+.suggested-title h3 {
+    font-size: 2rem;
+    font-family: 'Mirza';
+    font-weight: bold;
+}
+
+.suggested-red-title {
+    color: #da0b4e;
+}
+
+.suggested-course-box-content {
+    margin: 2rem auto !important;
+    padding: 0 !important;
+}
