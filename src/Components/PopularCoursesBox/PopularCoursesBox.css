@@ -1,0 +1,178 @@
+.popular-courses-box {
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.popular-courses-box-content {
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  border: 1px solid #e8ebf1;
+  margin-bottom: 30px;
+  padding: 1rem 1rem 1.5rem;
+  gap: 1rem;
+}
+
+.popular-courses-box-image {
+  width: 200px;
+  height: 190px;
+  overflow: hidden;
+}
+
+.popular-courses-box-image img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.popular-courses-box-right {
+  height: 100%;
+}
+
+.popular-courses-box-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+  padding-left: 1.5rem;
+  height: 100%;
+}
+
+.popular-courses-box-count,
+.popular-courses-box-number,
+.popular-courses-box-star,
+.popular-courses-box-star-icons,
+.populr-courses-box-price {
+  display: flex;
+  align-items: center;
+}
+
+.popular-courses-box-title-link {
+  font-weight: bold;
+  font-family: "Mirza";
+  font-size: 1.2rem;
+  margin-bottom: 0 !important;
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+.popular-courses-box-teacher p {
+  font-family: "Mirza";
+  font-size: 1rem;
+  margin-bottom: 0 !important;
+}
+
+.popular-courses-box-count {
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.popular-courses-box-number {
+  gap: 0.5rem;
+  align-items: center;
+  color: #da0b4e;
+}
+
+.popular-courses-box-tv-icon {
+  font-size: 1.3rem;
+}
+
+.popular-courses-box-number-count {
+  font-family: "Mirza";
+}
+
+.popular-courses-box-number-count p,
+.popular-courses-box-online p {
+  margin-bottom: 0 !important;
+  font-size: 1rem;
+  font-family: "Mirza";
+}
+
+.popular-courses-box-online p {
+  position: relative;
+}
+
+.popular-courses-box-online p::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #4caf50;
+  box-shadow: 0px 0px 0px 3px #a3dea5;
+  border-radius: 50%;
+  right: -1.2rem;
+  top: 9px;
+}
+
+.popular-courses-box-star {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popular-courses-box-star p {
+  margin-bottom: 0 !important;
+}
+
+.popular-courses-box-star-icon {
+  font-size: 1rem !important;
+}
+
+.popular-courses-box-rate p {
+  margin-right: 0.5rem;
+  font-family: "Mirza";
+  font-size: 1.2rem;
+}
+
+.popular-courses-box-category p {
+  padding: 0 15px;
+  height: 31px;
+  border-radius: 50px;
+  font-size: 15px;
+  font-family: "Mirza";
+}
+
+.populr-courses-box-price {
+  justify-content: space-between;
+  margin-top: 1.2rem;
+}
+
+.popular-courses-box-price-count p {
+  margin-bottom: 0 !important;
+  font-family: "Mirza";
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: darkblue;
+}
+.popular-courses-box-read {
+  width: 35px;
+  height: 35px;
+  background-color: #da0b4e;
+  padding: 0.3rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 400ms ease;
+}
+
+.popular-courses-box-read:hover {
+  background-color: #ffffff;
+  border: 1px solid #da0b4e;
+  color: #da0b4e;
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px,
+    rgba(240, 46, 170, 0.2) 0px 15px;
+}
+
+.popular-courses-box-read-icon {
+  color: #ffffff;
+  font-size: 1.3rem !important;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+
+.popular-courses-box-read-icon:hover {
+  color: #da0b4e;
+}
