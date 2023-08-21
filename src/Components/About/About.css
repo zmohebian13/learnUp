@@ -1,0 +1,126 @@
+.about-container {
+  margin: 2rem auto;
+  padding: 2rem 0;
+}
+
+.about-container-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.about-container-right h3 {
+  font-family: "Mirza";
+  font-size: 1.6rem;
+}
+
+.about-container-right h3 span {
+  color: #da0b4e;
+}
+
+.about-container-right p {
+  font-size: 1.1rem;
+  font-family: "Mirza";
+  padding-left: 1.5rem;
+  text-align: justify;
+}
+
+.about-items {
+  padding-left: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.about-item {
+  margin-left: 4rem;
+}
+
+.about-item p {
+  font-family: "Mirza";
+  color: #da0b4e;
+  font-size: 3rem;
+  margin-bottom: 0 !important;
+}
+
+.about-item span {
+  font-family: "Mirza";
+  font-size: 1.3rem;
+}
+
+.about-left-img {
+  max-width: 100%;
+  padding-top: 1rem;
+}
+
+.about-button {
+  margin-top: 1rem;
+}
+
+.button-48 {
+  border-radius: 5px;
+  appearance: none;
+  background-color: #da0b4e;
+  border-width: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Mirza";
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1em;
+  margin: 0;
+  opacity: 1;
+  outline: 0;
+  padding: 0.8rem 2rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-rendering: geometricprecision;
+  text-transform: uppercase;
+  transition: opacity 300ms cubic-bezier(0.694, 0, 0.335, 1),
+    background-color 100ms cubic-bezier(0.694, 0, 0.335, 1),
+    color 100ms cubic-bezier(0.694, 0, 0.335, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-48:before {
+  animation: opacityFallbackOut 0.5s step-end forwards;
+  backface-visibility: hidden;
+  background-color: #f16b84;
+  clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: translateZ(0);
+  transition: clip-path 0.5s cubic-bezier(0.165, 0.84, 0.44, 1),
+    -webkit-clip-path 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  width: 100%;
+  border-radius: 5px;
+}
+
+.button-48:hover:before {
+  animation: opacityFallbackIn 0s step-start forwards;
+  clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+}
+
+.button-48:after {
+  background-color: #ffffff;
+}
+
+.button-48 span {
+  z-index: 1;
+  position: relative;
+}
+
+.about-button-icon {
+  font-size: 0.8rem !important;
+  margin-right: 0.3rem;
+}
