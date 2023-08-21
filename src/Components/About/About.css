@@ -9,6 +9,10 @@
   gap: 1rem;
 }
 
+.about-container-right-icon {
+    font-size: 2rem !important;
+}
+
 .about-container-right h3 {
   font-family: "Mirza";
   font-size: 1.6rem;

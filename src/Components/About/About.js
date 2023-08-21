@@ -2,6 +2,7 @@ import React from "react";
 
 import "./About.css";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
+import ForkLeftIcon from "@mui/icons-material/ForkLeft";
 
 export default function About() {
   return (
@@ -11,6 +12,7 @@ export default function About() {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-6 col-sm-12 about-container-right">
               <h3>
+                <ForkLeftIcon className="about-container-right-icon" />
                 مسیرهای <span>یادگیری</span> و مجموعه های آموزشی
               </h3>
               <p>
