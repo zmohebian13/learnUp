@@ -1,0 +1,17 @@
+.last-articles {
+  margin: 4rem auto;
+  background-color: #f4f8fa !important;
+  padding: 4rem 0;
+}
+
+.last-articles-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.last-articles-header h3 {
+  font-family: "Mirza";
+  font-size: 1.6rem;
+}

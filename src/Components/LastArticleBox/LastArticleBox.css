@@ -1,0 +1,42 @@
+.last-article-box-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.last-article-box-container img {
+  width: 100%;
+}
+
+.last-article-box-container p {
+  font-family: "Mirza";
+  padding: 1rem;
+  margin-bottom: 0 !important;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+
+.last-article-box-container p:hover {
+    color: #da0b4e;
+}
+
+.last-article-box-footer {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.last-article-box-footer img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.last-article-box-footer p {
+  color: #7182a7;
+}
