@@ -1,0 +1,59 @@
+.join-news {
+  background-color: #da0b4e;
+}
+
+.join-news-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 2rem 0;
+  gap: 0.5rem;
+}
+
+.join-news-title {
+  font-family: "Mirza";
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.join-news-subtitle {
+  font-family: "Mirza";
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
+.join-input-group {
+  background-color: #ffffff;
+  width: 60%;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.join-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 1.5rem;
+  font-family: 'Mirza';
+}
+
+.join-btn {
+  padding: 1.5rem;
+  position: absolute;
+  left: 0;
+  bottom: -0.1rem;
+  border: none;
+  height: 90%;
+  font-family: "Mirza";
+  color: #ffffff;
+  background-color: #da0b4e;
+  margin: 0.3rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}

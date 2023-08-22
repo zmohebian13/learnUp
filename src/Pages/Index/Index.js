@@ -7,6 +7,7 @@ import PopularCourses from '../../Components/PopularCourses/PopularCourses'
 import About from '../../Components/About/About'
 import TopProfessors from '../../Components/TopProfessors/TopProfessors'
 import LastArticles from '../../Components/LastArticles/LastArticles'
+import JoinInNews from '../../Components/JoinInNews/JoinInNews'
 
 export default function Index() {
   return (
@@ -17,6 +18,7 @@ export default function Index() {
       <About />
       <TopProfessors />
       <LastArticles />
+      <JoinInNews />
     </div>
   )
 }
