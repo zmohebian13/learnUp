@@ -1,0 +1,24 @@
+.footer-widget-title {
+  color: #ffffff;
+  font-family: "Mirza";
+  font-size: 1.2rem;
+}
+
+.footer-widget-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding-top: 0.5rem;
+}
+
+.footer-widget-item-link {
+  text-decoration: none;
+  color: #858b9f;
+  font-family: "Mirza";
+  transition: all 400ms ease;
+  font-size: 1rem;
+}
+
+.footer-widget-item-link:hover {
+    color: #ffffff;
+}

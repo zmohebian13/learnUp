@@ -1,0 +1,99 @@
+.footer {
+  margin: 0 auto;
+  background-color: #252c41;
+  padding: 80px 0 !important;
+}
+
+.image-logo-footer {
+  width: 60%;
+  margin-bottom: 1rem;
+}
+
+.footer-address {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.5rem;
+  gap: 0.8rem;
+}
+
+.footer-address p {
+  font-family: "Mirza";
+  color: #858b9f;
+  font-size: 1rem;
+  margin-bottom: 0 !important;
+}
+
+.footer-download-app {
+  padding-top: 1rem;
+}
+
+.footer-downlaod-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 0.4rem;
+  border: 1px solid #858b9f;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Mirza";
+}
+
+.footer-download-icon {
+  font-size: 3rem !important;
+  color: #da0b4e;
+}
+
+.footer-download-title h5 {
+  margin-bottom: 0 !important;
+}
+.footer-download-title p {
+  margin-bottom: 0 !important;
+  color: #858b9f;
+}
+
+.footer-bottom {
+  background-color: #1b2132;
+  padding: 2rem 0;
+}
+
+.footer-bottom-text {
+    display: flex;
+    align-items: center;gap: 0.5rem;
+}
+
+.footer-bottom-git-icon {
+    color: #858b9f;
+    font-size: 1.3rem;
+}
+
+.footer-bottom-git-icon:hover {
+    color: #ffffff;
+}
+
+.footer-bottom p {
+  margin-bottom: 0 !important;
+  color: #858b9f;
+}
+
+.footer-social-icon {
+  color: #858b9f;
+  font-size: 1.2rem;
+  transition: all 400ms ease;
+  cursor: pointer;
+}
+
+.footer-social-icon:hover {
+    color: #ffffff;
+}
+
+.footer-bottom-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-bottom-social {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}

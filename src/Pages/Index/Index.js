@@ -8,6 +8,7 @@ import About from '../../Components/About/About'
 import TopProfessors from '../../Components/TopProfessors/TopProfessors'
 import LastArticles from '../../Components/LastArticles/LastArticles'
 import JoinInNews from '../../Components/JoinInNews/JoinInNews'
+import Footer from '../../Components/Footer/Footer'
 
 export default function Index() {
   return (
@@ -19,6 +20,7 @@ export default function Index() {
       <TopProfessors />
       <LastArticles />
       <JoinInNews />
+      <Footer />
     </div>
   )
 }
