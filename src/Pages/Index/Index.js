@@ -5,6 +5,7 @@ import Header from '../../Components/Header/Header'
 import SuggestedCourse from '../../Components/SuggestedCourse/SuggestedCourse'
 import PopularCourses from '../../Components/PopularCourses/PopularCourses'
 import About from '../../Components/About/About'
+import TopProfessors from '../../Components/TopProfessors/TopProfessors'
 
 export default function Index() {
   return (
@@ -13,6 +14,7 @@ export default function Index() {
       <SuggestedCourse />
       <PopularCourses />
       <About />
+      <TopProfessors />
     </div>
   )
 }
