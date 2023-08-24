@@ -1,0 +1,105 @@
+.courses {
+  padding: 80px 0;
+  margin: 5rem auto;
+}
+
+.courses-content {
+  margin: 0 auto !important;
+}
+
+.courses-title {
+  font: 2rem "Mirza";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.MuiTypography-root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.MuiTypography-root li a {
+  font-family: "Mirza";
+}
+
+.courses-sidebar-right {
+  border: 2px solid #e6ebf1;
+  border-radius: 0.4rem;
+  padding: 2rem 1rem;
+  width: 90%;
+  margin-bottom: 30px;
+  position: sticky;
+  top: 6rem;
+}
+
+.courses-sidebar-searchbar {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid #e6ebf1;
+  border-radius: 0.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.courses-sidebar-searchbar input {
+  padding: 0.8rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-family: "Mirza";
+}
+
+.form-sidebar-search-btn {
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  color: #c9ced4;
+}
+
+.courses-sidebar-right h4 {
+  font-family: "Mirza";
+  font-size: 1.3rem;
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.courses-sidebar-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.courses-sidebar-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.courses-sidebar-item label {
+  font-family: "Mirza";
+}
+.courses-left-filter-text {
+  font-family: "Mirza";
+  font-size: 1.1rem;
+}
+.dropdown {
+  direction: ltr;
+}
+
+.dropdown-toggle {
+  font-family: "Mirza" !important;
+}
+
+.dropdown-toggle::after {
+  margin-left: 0.5rem !important;
+  margin-right: 0 !important;
+}
+
+.dropdown-item {
+  font-family: "Mirza";
+  direction: ltr;
+}
