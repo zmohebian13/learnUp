@@ -1,10 +1,26 @@
-.courses {
-  padding: 80px 0;
-  margin: 5rem auto;
+.courses-top {
+  position: relative;
+}
+
+.courses-top::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 8rem;
+  top: -10px;
+  background-image: linear-gradient(
+    to bottom,
+    #daabba,
+    #e0c0d2,
+    #e6d6e5,
+    #f0ebf4,
+    #ffffff
+  );
 }
 
 .courses-content {
-  margin: 0 auto !important;
+  padding: 80px 0 10px 0;
+  margin: 4rem auto 0 !important;
 }
 
 .courses-title {
@@ -13,6 +29,35 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 2rem;
+  margin-top: 2rem;
+  position: relative;
+}
+
+.courses-title::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  color: #c30742;
+  border-radius: 50%;
+  animation: colorChange 1s infinite;
+  right: 33.5rem;
+  top: 1.4rem;
+  animation-direction: alternate;
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: #c30742;
+  }
+
+  50% {
+    background-color: #c83161;
+  }
+
+  100% {
+    background-color: #c891a2;
+  }
 }
 
 .MuiTypography-root {
@@ -92,6 +137,9 @@
 
 .dropdown-toggle {
   font-family: "Mirza" !important;
+  font-size: 1.1rem !important;
+  background-color: transparent !important;
+  color: rgb(112, 111, 111) !important;
 }
 
 .dropdown-toggle::after {
@@ -102,4 +150,20 @@
 .dropdown-item {
   font-family: "Mirza";
   direction: ltr;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 4rem;
+  margin: 20px auto 0 !important;
+}
+
+.Mui-selected {
+  background-color: #da0b4e !important;
+}
+
+.pagination li button svg {
+  transform: rotate(180deg) !important;
 }

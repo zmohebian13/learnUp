@@ -8,11 +8,16 @@ import PopularCoursesBox from "../../Components/PopularCoursesBox/PopularCourses
 import PopularCoursesDatas from "../../PopularCoursesDatas";
 import Breadcrumbs from "@mui/material/Breadcrumbs";
 import Link from "@mui/material/Link";
+import Pagination from "@mui/material/Pagination";
+import Stack from "@mui/material/Stack";
+import Footer from "../../Components/Footer/Footer";
+import JoinInNews from "../../Components/JoinInNews/JoinInNews";
 
 export default function Courses() {
   return (
     <>
       <Topbar />
+      <div className="courses-top"></div>
       <div className="courses">
         <section className="courses-content">
           <div className="container">
@@ -157,7 +162,12 @@ export default function Courses() {
             </div>
           </div>
         </section>
+        <div className="pagination">
+          <Pagination count="10" />
+        </div>
       </div>
+      <JoinInNews />
+      <Footer />
     </>
   );
 }

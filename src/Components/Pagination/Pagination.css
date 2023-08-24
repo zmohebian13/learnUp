@@ -1,0 +1,15 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5rem;
+  margin: 20px auto 0 !important;
+}
+
+.Mui-selected {
+  background-color: #da0b4e !important;
+}
+
+.pagination li button svg {
+  transform: rotate(180deg) !important;
+}
