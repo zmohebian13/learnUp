@@ -88,7 +88,8 @@
 .course-detail-part,
 .course-detail-rating,
 .course-detail-teacher,
-.course-detail-comments {
+.course-detail-comments,
+.course-detail-comment-textarea {
   border: 1px solid #e7ecf5;
   border-radius: 0.5rem;
   padding: 2rem;
@@ -383,4 +384,47 @@
   display: flex;
   align-items: center;
   gap: 0.3rem;
+}
+
+.course-detail-comment-textarea {
+  font-family: "Mirza";
+}
+
+.course-detail-comment-form {
+  margin-top: 1.5rem;
+}
+
+.course-detail-comment-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin: 0.7rem 0;
+}
+
+.course-detail-comment-form-group input,
+.course-detail-comment-form-group textarea {
+  border: 1px solid #dedee3 !important;
+  padding: 1rem;
+  border-radius: 5px;
+  outline: none;
+}
+
+.course-detail-comment-form-group textarea {
+  height: 150px;
+}
+
+.course-detail-comment-submit {
+  border: 1px solid #da0b4e;
+  padding: 1rem 0;
+  background-color: #da0b4e;
+  color: #fff;
+  border-radius: 5px;
+  transition: all 400ms ease;
+  font-size: 1.1rem;
+}
+
+.course-detail-comment-submit:hover {
+  border: 1px solid #da0b4e;
+  background-color: #fff;
+  color: #da0b4e;
 }

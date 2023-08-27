@@ -538,6 +538,38 @@ export default function CourseDetails() {
                 </div>
               </div>
             </div>
+            <div className="course-detail-comment-textarea">
+              <h5>ثبت دیدگاه</h5>
+              <form action="#" className="course-detail-comment-form">
+                <div className="row">
+                  <div className="col-lg-6 col-md-6 col-sm-12">
+                    <div className="course-detail-comment-form-group">
+                      <label>نام</label>
+                      <input type="text" placeholder="نام شما" />
+                    </div>
+                  </div>
+                  <div className="col-lg-6 col-md-6 col-sm-12">
+                    <div className="course-detail-comment-form-group">
+                      <label>ایمیل</label>
+                      <input type="email" placeholder="ایمیل شما" />
+                    </div>
+                  </div>
+                  <div className="col-lg-12 col-md-12 col-sm-12">
+                    <div className="course-detail-comment-form-group">
+                      <label>متن دیدگاه</label>
+                      <textarea placeholder="دیدگاه خود را وارد کنید" />
+                    </div>
+                  </div>
+                  <div className="col-lg-12 col-md-12 col-sm-12">
+                    <div className="course-detail-comment-form-group">
+                      <button type="submit" className="course-detail-comment-submit">
+                        ثبت دیدگاه
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
           </div>
           <div className="col-lg-4 col-md-4"></div>
         </div>
