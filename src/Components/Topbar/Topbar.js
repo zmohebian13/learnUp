@@ -17,7 +17,7 @@ export default function Topbar() {
             <Nav className="me-auto">
               <Navbar.Brand href="#home">
                 <img
-                  src="./assests/images/logo.png"
+                  src="/assests/images/logo.png"
                   alt=""
                   className="logo-img"
                 />

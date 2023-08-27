@@ -1,0 +1,314 @@
+.course-detail {
+  margin: 1rem 0 5rem;
+}
+
+.course-detail-title h4 {
+  font-family: "Mirza";
+  font-size: 2rem;
+}
+
+.course-detail-subtitle {
+  font-family: "Mirza";
+  display: flex;
+  padding: 1rem 0;
+  align-items: center;
+  gap: 1rem;
+}
+
+.course-detail-subtitle span {
+  background-color: #f9e7eb;
+  padding: 0 0.5rem 0.5rem;
+}
+.course-detail-rate {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+.course-detail-rate-star-icon {
+  font-size: 0.9rem !important;
+  color: #f1992c;
+}
+
+.course-datail-informations {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.course-detail-list {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.course-detail-item {
+  display: flex;
+  flex-direction: column;
+  font-family: "Mirza";
+}
+
+.course-detail-item span {
+  font-size: 15px;
+  font-weight: 400;
+  display: block;
+  color: #6a7481;
+}
+
+.course-detail-fav-btn {
+  margin-bottom: 1rem;
+}
+
+.course-detail-fav-btn-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #263238;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  background-color: #e5e7ed;
+  padding: 12px 25px;
+  gap: 0.5rem;
+  font-family: "Mirza";
+  transition: all 400ms ease;
+}
+
+.course-detail-fav-btn-link:hover {
+  background-color: #111;
+  color: #fff;
+}
+
+.course-detail-video {
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.course-detail-body,
+.course-detail-part,
+.course-detail-rating,
+.course-detail-teacher {
+  border: 1px solid #e7ecf5;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  margin-bottom: 30px;
+}
+
+.course-detail-body h5 {
+  font-family: "Mirza";
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgb(227, 238, 242);
+  padding-bottom: 0.7rem;
+}
+
+.course-detail-body p {
+  font-family: "Mirza";
+  text-align: justify;
+}
+
+.course-detail-body-list {
+  font-family: "Mirza";
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.course-detail-body-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.course-detail-part h5 {
+  font-family: "Mirza";
+}
+
+.accordion {
+  margin-top: 1.5rem !important;
+}
+
+.accordion-button {
+  justify-content: space-between;
+  position: relative;
+}
+
+.accordion-button::after {
+  left: 0 !important;
+  position: absolute;
+  margin-left: 0.7rem !important;
+}
+
+.accordion-item {
+  margin: 1.5rem 0;
+  border: 1px solid rgb(237, 236, 236) !important;
+  border-radius: 5px;
+  font-family: "Mirza";
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #fff !important;
+}
+
+.accordion-item-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(215, 223, 226);
+  padding: 1rem 0;
+}
+
+.accordion-item-title {
+  display: flex;
+  align-items: center;
+}
+
+.accordion-item-title p {
+  margin-bottom: 0 !important;
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.accordion-item-title-icon {
+  margin-left: 0.2rem;
+  margin-top: 0.3rem;
+}
+
+.accordion-item-details:last-child {
+  border-bottom: none;
+}
+
+.accordion-item-seen-icon {
+  font-size: 1.3rem !important;
+  color: rgb(82, 170, 82);
+}
+
+.accordion-item-lock-icon {
+  color: rgb(108, 112, 108);
+  margin-left: 0.3rem !important;
+}
+
+.course-detail-rating {
+  display: flex;
+  align-items: center;
+}
+
+.course-detail-all-rate {
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #e8e8e8;
+  font-family: "Mirza";
+  margin-left: 20px;
+  text-align: center;
+  padding-left: 27px;
+}
+
+.course-detail-all-fullrate {
+  margin-bottom: 0 !important;
+  font-size: 3rem !important;
+  font-weight: bold;
+  line-height: 4rem;
+}
+
+.course-detail-all-rate span {
+  font-size: 1.3rem;
+}
+
+.course-detail-rate-bar {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+}
+
+.course-detail-rating-bar-item {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 30px);
+  margin: 10px 15px;
+  font-family: "Mirza";
+  gap: 0.5rem;
+}
+
+.course-detail-rating-star-icon {
+  font-size: 0.8rem !important;
+  color: #f1992c;
+}
+
+.course-detail-teacher {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  overflow: hidden;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.course-detail-teacher-img {
+  width: 200px;
+  border-radius: 5px;
+}
+
+.course-detail-teacher-info {
+  display: flex;
+  flex-direction: column;
+  font-family: "Mirza";
+  gap: 0.6rem;
+}
+.course-detail-teacher-name {
+  margin-bottom: 0 !important;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #263238;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+.course-detail-teacher-name:hover {
+  color: #da0b4e;
+}
+.course-detail-teacher-update {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.teacher-update-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.course-detail-teacher-subtitle {
+  font-size: 1.05rem;
+  text-align: justify;
+  padding-left: 3rem;
+  line-height: 1.8rem;
+  margin-top: 0.5rem;
+}
+
+.course-detail-teacher-social {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.course-detail-teacher-social-link {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #dee0e3;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #111;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.course-detail-teacher-social-link:hover .course-detail-teacher-social-icon {
+  color: #da0b4e;
+}

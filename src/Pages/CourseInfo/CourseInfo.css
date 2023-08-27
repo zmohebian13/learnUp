@@ -1,0 +1,11 @@
+.course-info {
+    padding-top: 150px;
+}
+
+.MuiTypography-root {
+    justify-content: flex-start !important;
+}
+
+.breadcrumb {
+    margin-right: 1rem !important;
+}
