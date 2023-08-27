@@ -8,14 +8,17 @@ import Accordion from "react-bootstrap/Accordion";
 import ProgressBar from "react-bootstrap/ProgressBar";
 import { TiMediaPlayReverse } from "react-icons/ti";
 import { FaLock } from "react-icons/fa";
-import { AiFillEye } from "react-icons/ai";
+import { AiFillEye, AiOutlineDislike, AiOutlineLike } from "react-icons/ai";
 import { AiOutlineVideoCamera } from "react-icons/ai";
-import { BsPlay } from "react-icons/bs";
+import { BsCalendar2Date, BsPlay } from "react-icons/bs";
 import { RxUpdate } from "react-icons/rx";
 import { BiLogoFacebook } from "react-icons/bi";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { BiLogoLinkedin } from "react-icons/bi";
 import { AiOutlineInstagram } from "react-icons/ai";
+import { AiTwotoneStar } from "react-icons/ai";
+import { AiOutlineStar } from "react-icons/ai";
+import { FcLikePlaceholder } from "react-icons/fc";
 
 export default function CourseDetails() {
   return (
@@ -376,7 +379,9 @@ export default function CourseDetails() {
                 className="course-detail-teacher-img img-fluid"
               />
               <div className="course-detail-teacher-info">
-                <a href="#" className="course-detail-teacher-name">مهندس رضایی</a>
+                <a href="#" className="course-detail-teacher-name">
+                  مهندس رضایی
+                </a>
                 <div className="course-detail-teacher-update">
                   <div className="teacher-update-item">
                     <AiOutlineVideoCamera />
@@ -409,6 +414,127 @@ export default function CourseDetails() {
                   <a href="#" className="course-detail-teacher-social-link">
                     <AiOutlineInstagram className="course-detail-teacher-social-icon" />
                   </a>
+                </div>
+              </div>
+            </div>
+            <div className="course-detail-comments">
+              <h5>تاکنون 3 دیدگاه ثبت شده است!</h5>
+              <div className="course-detail-comment-text">
+                <img src="/assests/images/teacher/user-1.jpg" alt="" />
+                <div className="course-detail-comment-left">
+                  <div className="course-detail-comment-name">
+                    <h5>محمد خاکپور</h5>
+                    <span className="course-detail-comment-time">
+                      <BsCalendar2Date className="course-detail-comment-time-icon" />
+                      10 بهمن 1399
+                    </span>
+                  </div>
+                  <div className="course-detail-comment-rate">
+                    <AiTwotoneStar />
+                    <AiTwotoneStar />
+                    <AiTwotoneStar />
+                    <AiTwotoneStar />
+                    <AiOutlineStar />
+                    <span>4.9</span>
+                  </div>
+                  <p className="course-detail-comment-body">
+                    "ظاهرا آموزش کاملی بنظر میاد و میخوام بخرم ولی کاش بجای ساخت
+                    فروشگاه، پلاگین نویسی برا ووکامرس رو هم توضیح میدادین، البته
+                    میتونین تکمیل کنین این دوره رو و آپدیت کنین"
+                  </p>
+                  <ul className="course-detail-comment-situation">
+                    <li className="course-detail-comment-item">
+                      <AiOutlineLike className="course-detail-comment-item-like-icon" />
+                      <span>12</span>
+                    </li>
+                    <li className="course-detail-comment-item">
+                      <AiOutlineDislike />
+                      <span>1</span>
+                    </li>
+                    <li className="course-detail-comment-item">
+                      <FcLikePlaceholder />
+                      <span>7</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="course-detail-comment-text">
+                <img src="/assests/images/teacher/user-3.jpg" alt="" />
+                <div className="course-detail-comment-left">
+                  <div className="course-detail-comment-name">
+                    <h5>مهدی فدایی</h5>
+                    <span className="course-detail-comment-time">
+                      <BsCalendar2Date className="course-detail-comment-time-icon" />
+                      20 بهمن 1398
+                    </span>
+                  </div>
+                  <div className="course-detail-comment-rate">
+                    <AiTwotoneStar />
+                    <AiTwotoneStar />
+                    <AiTwotoneStar />
+                    <AiTwotoneStar />
+                    <AiOutlineStar />
+                    <span>4.2</span>
+                  </div>
+                  <p className="course-detail-comment-body">
+                    " سلام. برای یادگرفتن پیش نیاز این دوره که پی اچ پی هست تا
+                    کدام قسمت از اموزش پی اچ پی لازمه که یاد گرفته بشه؟(مطابق
+                    سرفصل های همین دوره در سایت) "{" "}
+                  </p>
+                  <ul className="course-detail-comment-situation">
+                    <li className="course-detail-comment-item">
+                      <AiOutlineLike className="course-detail-comment-item-like-icon" />
+                      <span>12</span>
+                    </li>
+                    <li className="course-detail-comment-item">
+                      <AiOutlineDislike />
+                      <span>1</span>
+                    </li>
+                    <li className="course-detail-comment-item">
+                      <FcLikePlaceholder />
+                      <span>7</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="course-detail-comment-text">
+                <img src="/assests/images/teacher/user-2.jpg" alt="" />
+                <div className="course-detail-comment-left">
+                  <div className="course-detail-comment-name">
+                    <h5>الهام پاکزاد</h5>
+                    <span className="course-detail-comment-time">
+                      <BsCalendar2Date className="course-detail-comment-time-icon" />
+                      26 مرداد 1399
+                    </span>
+                  </div>
+                  <div className="course-detail-comment-rate">
+                    <AiTwotoneStar />
+                    <AiTwotoneStar />
+                    <AiTwotoneStar />
+                    <AiTwotoneStar />
+                    <AiOutlineStar />
+                    <span>4.9</span>
+                  </div>
+                  <p className="course-detail-comment-body">
+                    "سلام.من PHP رو تو دوران هنرستان یاد گرفتم.اگه PHP رو به
+                    صورت مقدماتی کار کرده باشم ولی در حدی باشیم که درک نسبتا
+                    کاملی از کد خط ها و معنا و مفهوم آن داشته باشیم، کفایت میکنه
+                    یا باید پیشرفته تر آموزش ویدیویی ببینم؟ "
+                  </p>
+                  <ul className="course-detail-comment-situation">
+                    <li className="course-detail-comment-item">
+                      <AiOutlineLike className="course-detail-comment-item-like-icon" />
+                      <span>12</span>
+                    </li>
+                    <li className="course-detail-comment-item">
+                      <AiOutlineDislike />
+                      <span>1</span>
+                    </li>
+                    <li className="course-detail-comment-item">
+                      <FcLikePlaceholder />
+                      <span>7</span>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
