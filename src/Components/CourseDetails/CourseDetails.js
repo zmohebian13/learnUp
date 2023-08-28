@@ -19,6 +19,14 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { AiTwotoneStar } from "react-icons/ai";
 import { AiOutlineStar } from "react-icons/ai";
 import { FcLikePlaceholder } from "react-icons/fc";
+import { BsPeople } from "react-icons/bs";
+import { IoIosPaper } from "react-icons/io";
+import { BsFillPlayFill } from "react-icons/bs";
+import { BiSolidTimeFive } from "react-icons/bi";
+import { FaLevelUpAlt } from "react-icons/fa";
+import { MdLanguage } from "react-icons/md";
+import { BiSolidDollarCircle } from "react-icons/bi";
+import { BsFillBasket3Fill } from "react-icons/bs";
 
 export default function CourseDetails() {
   return (
@@ -562,7 +570,10 @@ export default function CourseDetails() {
                   </div>
                   <div className="col-lg-12 col-md-12 col-sm-12">
                     <div className="course-detail-comment-form-group">
-                      <button type="submit" className="course-detail-comment-submit">
+                      <button
+                        type="submit"
+                        className="course-detail-comment-submit"
+                      >
                         ثبت دیدگاه
                       </button>
                     </div>
@@ -571,7 +582,80 @@ export default function CourseDetails() {
               </form>
             </div>
           </div>
-          <div className="col-lg-4 col-md-4"></div>
+          <div className="col-lg-4 col-md-4">
+            <div className="course-detail-left">
+              <div className="course-detail-left-sidebar">
+                <div className="course-detail-left-top-sidebar">
+                  <span> قیمت آموزش :</span>
+                  <h5>149 تومان</h5>
+                  <p>
+                    در این دوره ما سعی داریم قدم به قدم و به شکل کامل پلاگین
+                    نویسی را به شما به شکل کامل آموزش دهیم.
+                  </p>
+                  <button className="button-48" role="button">
+                    <BsFillBasket3Fill className="course-detail-left-buy-icon"/>
+                    <span class="text">
+                      افزودن به سبد خرید
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <div className="course-detail-left-middle-sidebar">
+                <h5>ویژگی های دوره</h5>
+                <ul className="course-detail-sidebar-left-list">
+                  <li className="course-detail-sidebar-left-item">
+                    <div className="sidebar-item-right">
+                      <BsPeople />
+                      <span>شرکت کنندگان</span>
+                    </div>
+                    <strong>1740 نفر</strong>
+                  </li>
+                  <li className="course-detail-sidebar-left-item">
+                    <div className="sidebar-item-right">
+                      <IoIosPaper />
+                      <span>تعداد دوره</span>
+                    </div>
+                    <strong>10</strong>
+                  </li>
+                  <li className="course-detail-sidebar-left-item">
+                    <div className="sidebar-item-right">
+                      <BsFillPlayFill />
+                      <span>جلسات</span>
+                    </div>
+                    <strong>4</strong>
+                  </li>
+                  <li className="course-detail-sidebar-left-item">
+                    <div className="sidebar-item-right">
+                      <BiSolidTimeFive />
+                      <span>مدت دوره</span>
+                    </div>
+                    <strong>60 ساعت</strong>
+                  </li>
+                  <li className="course-detail-sidebar-left-item">
+                    <div className="sidebar-item-right">
+                      <FaLevelUpAlt />
+                      <span>سطح دوره</span>
+                    </div>
+                    <strong>مقدماتی</strong>
+                  </li>
+                  <li className="course-detail-sidebar-left-item">
+                    <div className="sidebar-item-right">
+                      <MdLanguage />
+                      <span>زبان</span>
+                    </div>
+                    <strong>فارسی</strong>
+                  </li>
+                  <li className="course-detail-sidebar-left-item">
+                    <div className="sidebar-item-right">
+                      <BiSolidDollarCircle />
+                      <span>نوع دوره</span>
+                    </div>
+                    <strong>رایگان</strong>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
