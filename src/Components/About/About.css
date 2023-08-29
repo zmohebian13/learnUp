@@ -10,7 +10,7 @@
 }
 
 .about-container-right-icon {
-    font-size: 2rem !important;
+  font-size: 2rem !important;
 }
 
 .about-container-right h3 {
@@ -61,42 +61,41 @@
 }
 
 .button-48 {
-  border-radius: 5px;
   appearance: none;
   background-color: #da0b4e;
   border-width: 0;
   box-sizing: border-box;
-  color: #ffffff;
+  color: #000000;
   cursor: pointer;
   display: inline-block;
-  font-family: "Mirza";
-  font-size: 15px;
+  font-family: Clarkson,Helvetica,sans-serif;
+  font-size: 14px;
   font-weight: 500;
   letter-spacing: 0;
   line-height: 1em;
   margin: 0;
   opacity: 1;
   outline: 0;
-  padding: 0.8rem 2rem;
+  padding: 1.2em 2.2em;
   position: relative;
   text-align: center;
   text-decoration: none;
   text-rendering: geometricprecision;
   text-transform: uppercase;
-  transition: opacity 300ms cubic-bezier(0.694, 0, 0.335, 1),
-    background-color 100ms cubic-bezier(0.694, 0, 0.335, 1),
-    color 100ms cubic-bezier(0.694, 0, 0.335, 1);
+  transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
   vertical-align: baseline;
   white-space: nowrap;
+  border-radius: 5px;
 }
 
 .button-48:before {
-  animation: opacityFallbackOut 0.5s step-end forwards;
+  border-radius: 5px;
+  animation: opacityFallbackOut .5s step-end forwards;
   backface-visibility: hidden;
-  background-color: #f16b84;
+  background-color: #d78ba3;
   clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
   content: "";
   height: 100%;
@@ -104,10 +103,8 @@
   position: absolute;
   top: 0;
   transform: translateZ(0);
-  transition: clip-path 0.5s cubic-bezier(0.165, 0.84, 0.44, 1),
-    -webkit-clip-path 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
   width: 100%;
-  border-radius: 5px;
 }
 
 .button-48:hover:before {
@@ -116,7 +113,7 @@
 }
 
 .button-48:after {
-  background-color: #ffffff;
+  background-color: #d78ba3;
 }
 
 .button-48 span {
@@ -124,7 +121,14 @@
   position: relative;
 }
 
-.about-button-icon {
-  font-size: 0.8rem !important;
-  margin-right: 0.3rem;
+.button-48 span a {
+  text-decoration: none;
+  font-family: 'Mirza';
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.about-btn-icon {
+  color: #fff !important;
+  margin-left: 0.5rem;
 }

@@ -27,6 +27,8 @@ import { FaLevelUpAlt } from "react-icons/fa";
 import { MdLanguage } from "react-icons/md";
 import { BiSolidDollarCircle } from "react-icons/bi";
 import { BsFillBasket3Fill } from "react-icons/bs";
+import { BiCommentAdd } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 export default function CourseDetails() {
   return (
@@ -570,11 +572,13 @@ export default function CourseDetails() {
                   </div>
                   <div className="col-lg-12 col-md-12 col-sm-12">
                     <div className="course-detail-comment-form-group">
-                      <button
-                        type="submit"
-                        className="course-detail-comment-submit"
-                      >
-                        ثبت دیدگاه
+                      <button class="button-48" role="button">
+                        <span class="text">
+                          <Link to="/about" class="text">
+                            <BiCommentAdd className="course-detail-left-comment-icon" />
+                            ثبت دیدگاه
+                          </Link>
+                        </span>
                       </button>
                     </div>
                   </div>
@@ -592,10 +596,12 @@ export default function CourseDetails() {
                     در این دوره ما سعی داریم قدم به قدم و به شکل کامل پلاگین
                     نویسی را به شما به شکل کامل آموزش دهیم.
                   </p>
-                  <button className="button-48" role="button">
-                    <BsFillBasket3Fill className="course-detail-left-buy-icon"/>
+                  <button class="button-48" role="button">
                     <span class="text">
-                      افزودن به سبد خرید
+                      <Link to="/basket" class="text">
+                        <BsFillBasket3Fill className="course-detail-left-buy-icon" />
+                        افزودن به سبد خرید
+                      </Link>
                     </span>
                   </button>
                 </div>

@@ -1,0 +1,57 @@
+.blog-top {
+  position: relative;
+}
+
+.blog-top::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 8rem;
+  top: -10px;
+  background-image: linear-gradient(
+    to bottom,
+    #daabba,
+    #e0c0d2,
+    #e6d6e5,
+    #f0ebf4,
+    #ffffff
+  );
+}
+
+.blog-content {
+  padding: 80px 0 10px 0;
+  margin: 4rem auto 0 !important;
+}
+
+.blog-title {
+  font: 2rem "Mirza";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.MuiTypography-root {
+  display: flex;
+  align-items: center;
+  justify-content: center !important;
+}
+
+.MuiTypography-root li a {
+  font-family: "Mirza";
+  text-decoration: none;
+  color: inherit;
+}
+
+.Mui-selected {
+  background-color: #da0b4e !important;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0 !important;
+  margin: 40px auto !important;
+}

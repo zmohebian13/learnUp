@@ -6,6 +6,7 @@ import StarIcon from "@mui/icons-material/Star";
 import StarHalfIcon from "@mui/icons-material/StarHalf";
 import StarBorderIcon from "@mui/icons-material/StarBorder";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import  {Link}  from "react-router-dom";
 
 export default function PopularCoursesBox({
   img,
@@ -28,7 +29,7 @@ export default function PopularCoursesBox({
         </div>
         <div className="popular-courses-box-left">
           <div className="populare-courses-box-title">
-            <a className="popular-courses-box-title-link">{title}</a>
+            <Link className="popular-courses-box-title-link" to='/course-info'>{title}</Link>
           </div>
           <div className="popular-courses-box-teacher">
             <p>
@@ -40,8 +41,7 @@ export default function PopularCoursesBox({
             <div className="popular-courses-box-number">
               <LiveTvIcon className="popular-courses-box-tv-icon" />
               <div className="popular-courses-box-number-count">
-                <p>
-                    {count} دوره</p>
+                <p>{count} دوره</p>
               </div>
             </div>
             <div className="popular-courses-box-online">
@@ -60,7 +60,9 @@ export default function PopularCoursesBox({
               </div>
             </div>
             <div className="popular-courses-box-category">
-              <p style={{ color: categoryColor, backgroundColor: categoryBg }}>{category}</p>
+              <p style={{ color: categoryColor, backgroundColor: categoryBg }}>
+                {category}
+              </p>
             </div>
           </div>
           <div className="populr-courses-box-price">
@@ -68,7 +70,9 @@ export default function PopularCoursesBox({
               <p>{price} هزار تومان</p>
             </div>
             <div className="popular-courses-box-read">
-              <ArrowBackIcon className="popular-courses-box-read-icon" />
+              <Link to="/course-info">
+                <ArrowBackIcon className="popular-courses-box-read-icon" />
+              </Link>
             </div>
           </div>
         </div>

@@ -2,8 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 5rem;
-  margin: 20px auto 0 !important;
+  margin: 40px auto 0 !important;
 }
 
 .Mui-selected {

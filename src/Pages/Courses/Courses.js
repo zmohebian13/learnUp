@@ -12,6 +12,8 @@ import Pagination from "@mui/material/Pagination";
 import Stack from "@mui/material/Stack";
 import Footer from "../../Components/Footer/Footer";
 import JoinInNews from "../../Components/JoinInNews/JoinInNews";
+import HomeIcon from "@mui/icons-material/Home";
+
 
 export default function Courses() {
   return (
@@ -25,7 +27,13 @@ export default function Courses() {
               <div className="col-lg-12 col-md-12">
                 <h1 className="courses-title">دوره های آموزشی</h1>
                 <Breadcrumbs aria-label="breadcrumb">
-                  <Link underline="hover" color="inherit" href="/">
+                  <Link
+                    underline="hover"
+                    sx={{ display: "flex", alignItems: "center" }}
+                    color="inherit"
+                    href="/"
+                  >
+                    <HomeIcon sx={{ ml: 0.5 }} fontSize="inherit" />
                     خانه
                   </Link>
                   <Link

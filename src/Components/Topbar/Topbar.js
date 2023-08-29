@@ -22,9 +22,9 @@ export default function Topbar() {
                   className="logo-img"
                 />
               </Navbar.Brand>
-              <Nav.Link href="#home">خانه</Nav.Link>
+              <Nav.Link href="/" to='/'>خانه</Nav.Link>
               <NavDropdown title="دوره های آموزشی" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                <NavDropdown.Item href="/courses">تمامی دوره ها</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
                   Another action
                 </NavDropdown.Item>
@@ -36,9 +36,9 @@ export default function Topbar() {
                   Separated link
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="#home">بلاگ</Nav.Link>
+              <Nav.Link href="/blog">بلاگ</Nav.Link>
               <Nav.Link href="#home">فروشگاه</Nav.Link>
-              <Nav.Link href="#home">تماس با ما</Nav.Link>
+              <Nav.Link href="/contact">تماس با ما</Nav.Link>
             </Nav>
           </Navbar.Collapse>
           <div className="topbar-login-section">

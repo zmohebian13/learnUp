@@ -33,37 +33,10 @@
   position: relative;
 }
 
-.courses-title::before {
-  content: "";
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  color: #c30742;
-  border-radius: 50%;
-  animation: colorChange 1s infinite;
-  right: 33.5rem;
-  top: 1.4rem;
-  animation-direction: alternate;
-}
-
-@keyframes colorChange {
-  0% {
-    background-color: #c30742;
-  }
-
-  50% {
-    background-color: #c83161;
-  }
-
-  100% {
-    background-color: #c891a2;
-  }
-}
-
 .MuiTypography-root {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center !important;
 }
 
 .MuiTypography-root li a {
@@ -156,7 +129,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 4rem;
   margin: 20px auto 0 !important;
 }
 

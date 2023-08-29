@@ -48,8 +48,10 @@
   display: flex;
   align-items: center;
 }
-
-.popular-courses-box-title-link {
+.populare-courses-box-title {
+  
+}
+.populare-courses-box-title a {
   font-weight: bold;
   font-family: "Mirza";
   font-size: 1.2rem;

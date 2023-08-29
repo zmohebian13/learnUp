@@ -3,6 +3,8 @@ import React from "react";
 import "./About.css";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ForkLeftIcon from "@mui/icons-material/ForkLeft";
+import { BsPeople } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
@@ -40,10 +42,12 @@ export default function About() {
                 </div>
               </div>
               <div className="about-button">
-                <button className="button-48" role="button">
+                <button class="button-48" role="button">
                   <span class="text">
-                    درباره ما
-                    <ArrowBackIosNewIcon className="about-button-icon" />
+                    <Link to="/about" class="text">
+                      <BsPeople className="about-btn-icon" />
+                      درباره ما
+                    </Link>
                   </span>
                 </button>
               </div>
