@@ -6,6 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
 import "./Topbar.css";
+import { Link } from "react-router-dom";
 
 export default function Topbar() {
   return (
@@ -43,14 +44,14 @@ export default function Topbar() {
           </Navbar.Collapse>
           <div className="topbar-login-section">
             <button className="login-btn">
-              <a href="#" className="topbar-login-link">
+              <Link to='/login' className="topbar-login-link">
                 ورود
-              </a>
+              </Link>
             </button>
             <button className="register-btn">
-              <a href="#" className="topbar-register-link">
+              <Link to='/register' className="topbar-register-link">
                 عضویت
-              </a>
+              </Link>
             </button>
           </div>
         </Container>
