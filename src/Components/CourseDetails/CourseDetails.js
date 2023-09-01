@@ -29,11 +29,47 @@ import { BiSolidDollarCircle } from "react-icons/bi";
 import { BsFillBasket3Fill } from "react-icons/bs";
 import { BiCommentAdd } from "react-icons/bi";
 import { Link } from "react-router-dom";
+import { Breadcrumbs } from "@mui/material";
+import HomeIcon from "@mui/icons-material/Home";
+
 
 export default function CourseDetails() {
   return (
     <div className="course-detail">
       <div className="container">
+        <div className="row mb-5" style={{ position: "relative" }}>
+          <Breadcrumbs
+            aria-label="breadcrumb"
+            className="breadcrumb"
+            style={{ position: "absolute", right: "-37%" }}
+          >
+            <Link
+              underline="hover"
+              sx={{ display: "flex", alignItems: "center" }}
+              color="inherit"
+              href="/"
+            >
+              <HomeIcon sx={{ ml: 0.5 }} fontSize="inherit" />
+              خانه
+            </Link>
+            <Link
+              underline="hover"
+              color="inherit"
+              href="/courses"
+              aria-current="page"
+            >
+              دوره های آموزشی
+            </Link>
+            <Link
+              underline="hover"
+              color="text.primary"
+              href="/course-info/react"
+              aria-current="page"
+            >
+              دوره آموزش پلاگین نویسی وردپرس{" "}
+            </Link>
+          </Breadcrumbs>
+        </div>
         <div className="row">
           <div className="col-lg-8 col-md-8">
             <div className="course-detail-title">
