@@ -6,6 +6,8 @@ import Blog from "./Pages/Blog/Blog";
 import AboutUs from "./Pages/AboutUs/AboutUs";
 import BuyBasket from "./Pages/BuyBasket/BuyBasket";
 import Login from "./Pages/Login/Login";
+import NotFound from "./Pages/404/NotFound";
+import Register from "./Pages/Register/Register";
 
 const routes = [
   { path: "/", element: <Index /> },
@@ -16,6 +18,8 @@ const routes = [
   { path: "/about", element: <AboutUs /> },
   { path: "/basket", element: <BuyBasket /> },
   { path: "/login", element: <Login /> },
+  { path: "/404", element: <NotFound /> },
+  { path: "/register", element: <Register /> },
 ];
 
 export default routes;

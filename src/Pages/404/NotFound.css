@@ -1,0 +1,28 @@
+.notFound-img {
+  width: 70%;
+  animation-name: moveUpAndDown;
+  position: relative;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.not-found-home-icon {
+  margin-left: 0.5rem;
+  color: white !important;
+}
+
+.notfound-title {
+  font-family: "Mirza";
+  padding-bottom: 0.5rem;
+  color: #da0b4e;
+}
+
+@keyframes moveUpAndDown {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 8px;
+  }
+}

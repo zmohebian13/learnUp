@@ -1,11 +1,11 @@
-.login {
+.register {
   background-image: url(../../../public/assests/images/login/85332.jpg);
   background-position: top;
   background-size: cover;
   height: 100vh;
 }
 
-.login-container {
+.register-container {
   width: 80% !important;
   display: flex;
   align-items: center;
@@ -17,15 +17,15 @@
   padding: 2rem !important;
 }
 
-.login-right {
+.register-right {
   flex: 1;
 }
 
-.login-right-img {
+.register-right-img {
   width: 100%;
 }
 
-.login-left {
+.register-left {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -36,51 +36,51 @@
   border-radius: 5px;
 }
 
-.login-left-title {
+.register-left-title {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.login-left-title h5 {
+.register-left-title h5 {
   font-size: 2rem;
   flex-basis: 50%;
 }
 
-.login-left-title a {
+.register-left-title a {
   flex: 1;
 }
 
-.login-left-logo {
+.register-left-logo {
   float: left;
   flex-basis: 50%;
   width: 35%;
   display: flex;
 }
 
-.login-subtitle {
+.register-subtitle {
   color: #da0b4e;
 }
 
-.login-form-group {
+.register-form-group {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
 }
 
-.login-form-email-input {
+.register-form-email-input {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
 }
 
-.login-form-email-input label,
-.login-form-password label {
+.register-form-email-input label,
+.register-form-password label {
   font-size: 1.3rem !important;
 }
 
-.login-form-email-input input,
-.login-form-password input {
+.register-form-email-input input,
+.register-form-password input {
   padding: 1rem;
   border-radius: 5px;
   border: 1px solid rgb(210, 214, 215);
@@ -88,29 +88,29 @@
   background-color: rgb(242, 242, 242);
 }
 
-.login-form-password {
+.register-form-password {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
 }
 
-.login-form-password-setting {
+.register-form-password-setting {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.login-form-password-setting a {
+.register-form-password-setting a {
   text-decoration: none;
 }
 
-.login-form-btn {
+.register-form-btn {
   color: #fff;
   font-size: 1.1rem;
   font-family: "Mirza";
 }
 
-.login-enter-mood-detail {
+.register-enter-mood-detail {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -119,11 +119,11 @@
   width: 100%;
 }
 
-.login-enter-mood-detail p {
+.register-enter-mood-detail p {
   margin-bottom: 0 !important;
 }
 
-.login-enter-mood {
+.register-enter-mood {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -131,7 +131,7 @@
   width: 100%;
 }
 
-.login-enter-mood-item {
+.register-enter-mood-item {
   background-color: rgb(255, 255, 255);
   padding: 0.8rem 1rem;
   border-radius: 5px;
@@ -144,27 +144,26 @@
   transition: all 400ms ease;
 }
 
-.login-enter-mood-item:hover {
+.register-enter-mood-item:hover {
   background-color: rgb(210, 214, 215);
 }
 
-.login-register {
+.register-register {
   margin: 1rem auto;
 }
 
-.login-register-title {
+.register-register-title {
   margin-bottom: 0 !important;
 }
 
-.login-register-title span a {
+.register-register-title span a {
   text-decoration: none;
   color: #da0b4e;
   margin-right: 0.5rem;
 }
 
-.login-enter-icon {
+.register-enter-icon {
   font-size: 1.1rem;
   margin-left: 0.3rem;
   transform: rotate(180deg);
 }
-
