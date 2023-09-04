@@ -39,7 +39,7 @@ export default function Topbar() {
               </NavDropdown>
               <Nav.Link href="/blog">بلاگ</Nav.Link>
               <Nav.Link href="#home">فروشگاه</Nav.Link>
-              <Nav.Link href="/contact">تماس با ما</Nav.Link>
+              <Nav.Link href="/contact" to='/contact'>تماس با ما</Nav.Link>
             </Nav>
           </Navbar.Collapse>
           <div className="topbar-login-section">
