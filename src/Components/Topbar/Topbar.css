@@ -19,12 +19,13 @@
 }
 
 .logo-img {
-  width: 33%;
+  width: 40%;
 }
 
 .navbar-brand {
   display: flex;
   justify-content: flex-start;
+  width: 40%;
 }
 
 .dropdown-toggle::after {

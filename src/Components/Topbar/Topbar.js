@@ -23,33 +23,51 @@ export default function Topbar() {
                   className="logo-img"
                 />
               </Navbar.Brand>
-              <Nav.Link href="/" to='/'>خانه</Nav.Link>
+              <Nav.Link href="/" to="/">
+                خانه
+              </Nav.Link>
+
               <NavDropdown title="دوره های آموزشی" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/courses">تمامی دوره ها</NavDropdown.Item>
+                <NavDropdown.Item href="/courses">
+                  تمامی دوره ها
+                </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
-                  Another action
+                  مهندسی نرم افزار
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">حسابداری</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">
+                  طراحی گرافیک
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">
-                  Something
+                  بورس بازار و سهام
                 </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
+
+                <NavDropdown.Item href="#action/3.3">
+                  کسب و کار
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">
+                  برنامه نویسی وب
                 </NavDropdown.Item>
               </NavDropdown>
+              <NavDropdown title="صفحات" id="basic-nav-dropdown">
+                <NavDropdown.Item href="/404">صفحه 404</NavDropdown.Item>
+                <NavDropdown.Item href="/about">درباره ما</NavDropdown.Item>
+                <NavDropdown.Item href="/rules">شرایط و قوانین</NavDropdown.Item>
+              </NavDropdown>
               <Nav.Link href="/blog">بلاگ</Nav.Link>
-              <Nav.Link href="#home">فروشگاه</Nav.Link>
-              <Nav.Link href="/contact" to='/contact'>تماس با ما</Nav.Link>
+              <Nav.Link href="/contact" to="/contact">
+                تماس با ما
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
           <div className="topbar-login-section">
             <button className="login-btn">
-              <Link to='/login' className="topbar-login-link">
+              <Link to="/login" className="topbar-login-link">
                 ورود
               </Link>
             </button>
             <button className="register-btn">
-              <Link to='/register' className="topbar-register-link">
+              <Link to="/register" className="topbar-register-link">
                 عضویت
               </Link>
             </button>
